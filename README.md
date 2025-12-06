@@ -1,16 +1,28 @@
-# todo_app
+# 📱 Modern To-Do App (Flutter + MongoDB)
 
-A new Flutter project.
+Una aplicación de gestión de tareas moderna, minimalista y funcional, construida con **Flutter** y conectada directamente a **MongoDB Atlas** para persistencia de datos en la nube.
 
-## Getting Started
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?style=for-the-badge&logo=mongodb&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
 
-This project is a starting point for a Flutter application.
+## ✨ Características
 
-A few resources to get you started if this is your first Flutter project:
+* **CRUD Completo:** Crear, Leer, Actualizar y Eliminar tareas.
+* **Gestión de Estados:**
+    * **Swipe Derecha:** Marcar como completada (mueve a Historial).
+    * **Swipe Izquierda:** Eliminar tarea definitivamente.
+* **Categorías:** Filtrado por Casa, Trabajo y Negocios.
+* **Prioridades:** Visualización de importancia (Alta, Media, Baja).
+* **Detalles:** Modal de visualización de detalles y descripción.
+* **Persistencia Cloud:** Conexión directa a MongoDB Atlas.
+* **UI Moderna:** Diseño limpio con animaciones fluidas y feedback visual (Snackbars).
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🛠️ Instalación y Configuración
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Sigue estos pasos para correr el proyecto en tu máquina local.
+
+### 1. Clonar el repositorio
+```bash
+git clone [https://github.com/TU_USUARIO/todo_app_flutter.git](https://github.com/TU_USUARIO/todo_app_flutter.git)
+cd todo_app_flutter
